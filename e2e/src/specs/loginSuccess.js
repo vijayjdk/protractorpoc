@@ -25,15 +25,15 @@ describe('Login page Functionality', function(){
             expect(dashboard.getDashboardFeatures().count()).toEqual(6);
         });
 
-        xit('Creating new accession', function(){
-             dashboard.clickOnNewAccession();
-             loader.waitForLoader();
-             accession.addLabClientPhysicianInformation(data);
-             accession.addPatientInformation(data);
-             accession.addSpecimen(data);
-             accession.addCTCFISHTest(data);
-             accession.saveAccessionClick();
-            expect(barcodeBuilder.isSummaryReportAvailable().isDisplayed()).toBe(true);
-        })
+        // xit('Creating new accession', function(){
+        //      dashboard.clickOnNewAccession();
+        //      loader.waitForLoader();
+        //      accession.addLabClientPhysicianInformation(data);
+        //      accession.addPatientInformation(data);
+        //      accession.addSpecimen(data);
+        //      accession.addCTCFISHTest(data);
+        //      accession.saveAccessionClick();
+        //     expect(barcodeBuilder.isSummaryReportAvailable().isDisplayed()).toBe(true);
+        // })
     });
 });

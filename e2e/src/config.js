@@ -24,9 +24,9 @@ allScriptsTimeout: 21000,
     //Spec Files
     specs: 
     [
-        // './specs/loginSuccess.js',
+        './specs/loginSuccess.js',
         // './specs/dashboard.js',
-        './specs/loginSuccessCSV.js',
+        // './specs/loginSuccessCSV.js',
         // './specs/accession.js'
     ],
 
